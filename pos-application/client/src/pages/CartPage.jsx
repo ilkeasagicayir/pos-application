@@ -37,7 +37,7 @@ const CartPage = () => {
     },
   ];
 
-  console.log(isModalOpen);
+  //console.log(isModalOpen);
 
   return (
     <>

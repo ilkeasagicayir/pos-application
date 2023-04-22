@@ -10,7 +10,7 @@ function App() {
           <Categories />
         </div>
         <div className="products flex-[8]">
-          <div>Products</div>
+          <div>Neler var neler</div>
         </div>
         <div className="cartTotals">
           <div>Cart Totals</div>

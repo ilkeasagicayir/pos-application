@@ -4,6 +4,7 @@ import CartPage from "./pages/CartPage";
 import BillPage from "./pages/BillPage";
 import CustomerPage from "./pages/CustomerPage";
 import Register from "./pages/auth/Register";
+import Login from "./pages/auth/Login";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/bills" element={<BillPage />} />
           <Route path="/customers" element={<CustomerPage />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>
